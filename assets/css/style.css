@@ -1,0 +1,89 @@
+/** {
+	float: left;
+}*/
+
+body {
+
+}
+
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	padding: 30px;
+	color: black;
+/*	background-color: gray;
+*/	padding-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Passion One', cursive;
+	font-size: 40px;
+	padding: 15px;
+	padding-bottom: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+/*	background-color: green;
+*/}
+
+p {
+	font-family: 'Varela', sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+/*	background-color: yellow;
+*/}
+
+.container {
+	display: inline-block;
+	text-align: center;
+	margin-left: 25%;
+}
+
+.red-crystal {
+	float: left;
+}
+
+.blue-crystal {
+	float: left;
+}
+
+.green-crystal {
+	float: left;
+}
+
+.orange-crystal {
+	float: left;
+}
+
+.countstyle {
+	font-family: 'Sigmar One', cursive;
+}
+
+#targetnum {
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	font-size: 40px;
+}
+
+#yournum {
+	position: absolute;
+	top: 58%;
+	left: 74%;
+	font-size: 40px;
+	text-align: center;
+	width: 20%;
+}
+
+#wincount {
+
+}
+
+#losscount {
+
+}
