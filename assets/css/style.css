@@ -42,6 +42,7 @@ p {
 	display: inline-block;
 	text-align: center;
 	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .red-crystal {
@@ -65,19 +66,20 @@ p {
 }
 
 #targetnum {
-	position: absolute;
-	top: 60%;
-	left: 5%;
+	position: relative;
+	left: 10%;
+	width: 20%;
 	font-size: 40px;
+	display: inline-block;
 }
 
-#yournum {
-	position: absolute;
-	top: 58%;
-	left: 74%;
+#usernum {
+	position: relative;
+	left: 40%;
 	font-size: 40px;
-	text-align: center;
 	width: 20%;
+	display: inline-block;
+	text-align: center;
 }
 
 #wincount {
