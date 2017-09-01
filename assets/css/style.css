@@ -1,19 +1,14 @@
-/** {
-	float: left;
-}*/
-
 body {
 
 }
 
 h1 {
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 55px;
+	font-size: 50px;
 	text-align: center;
 	padding: 30px;
 	color: black;
-/*	background-color: gray;
-*/	padding-bottom: 20px;
+*/	padding-bottom: 10px;
 }
 
 h2 {
@@ -23,7 +18,6 @@ h2 {
 	padding-bottom: 0px;
 	margin-left: 10%;
 	margin-right: 10%;
-/*	background-color: green;
 */}
 
 p {
@@ -35,14 +29,13 @@ p {
 	font-size: 20px;
 	margin-left: 10%;
 	margin-right: 10%;
-/*	background-color: yellow;
 */}
 
 .container {
 	display: inline-block;
 	text-align: center;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 8%;
+	padding: 10px;
 }
 
 .red-crystal {
@@ -63,29 +56,27 @@ p {
 
 .countstyle {
 	font-family: 'Sigmar One', cursive;
+	float: right;
+	text-align: center;
+	margin-right: 8%;
 }
 
 #targetnum {
-	position: relative;
-	left: 10%;
-	width: 20%;
-	font-size: 40px;
-	display: inline-block;
+	font-size: 45px;
+	padding: 10px;
 }
 
 #usernum {
-	position: relative;
-	left: 40%;
+	text-align: left;
 	font-size: 40px;
-	width: 20%;
-	display: inline-block;
-	text-align: center;
 }
 
 #wincount {
-
+	font-size: 25px;
+	padding: 8px;
 }
 
 #losscount {
-
+	font-size: 25px;
+	padding: 8px;
 }
