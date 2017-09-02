@@ -24,7 +24,7 @@ $("#usernum").text("Your Number: "+userTotal)
 
 // Reset the game
 function reset(){
-	targetGen = Math.floor(Math.random()*(99-19+1))+19
+	targetGen = Math.floor(Math.random()*(99-19+1))+19;
 	randomRed = Math.floor(Math.random() * 9) + 1;
 	randomBlue = Math.floor(Math.random() * 9) + 1;
 	randomGreen = Math.floor(Math.random() * 9) + 1;
